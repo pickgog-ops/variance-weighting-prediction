@@ -2,7 +2,7 @@
 
 Code, data and saved results for the main experiments of the paper
 
-> X. Ding, F. Yang, B. Liu, T. Tu and T. Feng, "When Does Variance Weighting Help Prediction? Feasible GLS, Adapted Intensity Rules, Pre-Testing and Cross-Validated Weighting under Mean-Function Misspecification," *IEEE Access*, 2026 (manuscript Access-2026-52631; DOI to be added).
+> X. Ding, F. Yang, B. Liu, T. Tu and T. Feng, "When Does Variance Weighting Help Prediction? Feasible GLS, Adapted Intensity Rules, Pre-Testing and Cross-Validated Weighting under Mean-Function Misspecification," *IEEE Access*, 2026 (manuscript Access-xxxx-xxxxx; ).
 
 The repository covers the Monte Carlo study (Table 2), the weighting-intensity rules (Table 3 and Appendix E), the benchmark comparison (Tables 4-6) and the correlated-error GLS study (Appendix J). The supplementary material of the article contains the complete archive with all further analyses.
 
