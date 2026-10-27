@@ -1,0 +1,6 @@
+dataset,domain,n,d,target,features,source,y_mean,y_std,y_min,y_max
+Auto MPG,Energy efficiency,392,2,mpg (fuel economy),"displacement, weight",ISLR / UCI Auto-Mpg,23.445918367346938,7.8050074865717995,9.0,46.6
+Insurance,Medical insurance,1338,2,charges (USD),"age, bmi",Medical Cost Personal Dataset,13270.422265141257,12110.011236694001,1121.8739,63770.42801
+Hitters,Sports analytics,263,2,Salary (1000 USD),"Hits, HmRun",ISLR Hitters,535.9258821292775,451.11868070253865,67.5,2460.0
+Engel,Household economics,235,1,foodexp (Belgian francs),income,"quantreg::engel (Koenker & Bassett, 1982)",624.1501113133555,276.4569973141452,242.32020192074,2032.67919020832
+Abalone,Marine biology (UCI),4177,7,Rings (age proxy),"Length, Diameter, Height, Whole weight, Shucked weight, Viscera weight, Shell weight","UCI ML Repository, Nash et al. (1994)",9.933684462532918,3.2241690320681284,1.0,29.0
