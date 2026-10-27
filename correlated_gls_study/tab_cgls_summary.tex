@@ -1,0 +1,15 @@
+\begin{tabular}{@{}lrrrrrrr@{}}
+\toprule
+ & \multicolumn{2}{c}{test MSE vs OLS} & \multicolumn{2}{c}{coef.\ error vs OLS} & \multicolumn{2}{c}{median share of oracle gain (\%)} & median \\
+Method ($n$) & correct & missp. & correct & missp. & all & post hoc$^{\ast}$ & time (ms) \\
+\midrule
+Sample (36) & 10/1 & 0/14 & 18/2 & 1/17 & 58 & 72 & 0.7 \\
+Diag (48) & 18/0 & 0/25 & 24/0 & 0/27 & 35 & 72 & 0.8 \\
+LW-linear (48) & 20/0 & 3/14 & 25/0 & 4/16 & 60 & 71 & 2.3 \\
+OAS (48) & 20/0 & 3/14 & 25/0 & 4/16 & 60 & 71 & 0.8 \\
+LW-NL (48) & 20/0 & 3/14 & 25/0 & 4/16 & 56 & 67 & 1.1 \\
+QIS (48) & 19/0 & 3/14 & 23/0 & 4/16 & 56 & 69 & 5.4 \\
+CV-linear (48) & 16/0 & 4/1 & 24/0 & 4/3 & 40 & 48 & 20.0 \\
+CV-power (48) & 17/0 & 3/2 & 27/0 & 4/3 & 30 & 40 & 19.9 \\
+\bottomrule
+\end{tabular}

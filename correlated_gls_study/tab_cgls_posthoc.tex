@@ -1,0 +1,18 @@
+\begin{tabular}{@{}l rr rr@{}}
+\toprule
+ & \multicolumn{2}{c}{reversed (anti-aligned)} & \multicolumn{2}{c}{permuted (unaligned)} \\
+Method & better/worse & median (\%) & better/worse & median (\%) \\
+\midrule
+Sample & 0/5 & +0.42 & 1/1 & +0.03 \\
+Diag & 0/8 & +1.95 & 1/5 & +0.20 \\
+LW-linear & 2/5 & +0.21 & 3/1 & $-$0.03 \\
+OAS & 2/5 & +0.21 & 3/1 & $-$0.03 \\
+LW-NL & 2/5 & +0.21 & 3/1 & $-$0.03 \\
+QIS & 2/5 & +0.20 & 2/1 & $-$0.03 \\
+CV-linear & 1/1 & +0.01 & 3/0 & $-$0.02 \\
+CV-power & 1/2 & $-$0.00 & 3/0 & $-$0.01 \\
+\midrule
+\multicolumn{5}{@{}l}{reversed: oracle $\Delta$MSE 5.08 to 5.94\%; $\beta_{\Sigma,1}$ 1.218--1.221, $\beta_{\tilde\Sigma,1}$ 1.077--1.131} \\
+\multicolumn{5}{@{}l}{permuted: oracle $\Delta$MSE 0.00 to 0.94\%; $\beta_{\Sigma,1}$ 0.911--0.916, $\beta_{\tilde\Sigma,1}$ 0.952--0.971} \\
+\bottomrule
+\end{tabular}

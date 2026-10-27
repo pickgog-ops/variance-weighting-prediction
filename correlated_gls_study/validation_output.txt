@@ -1,0 +1,14 @@
+V1 LW official cov1Para(k=0) vs sklearn LedoitWolf: 2.66454e-15
+V2 OAS Chen et al. (2010) Eq.23 vs sklearn OAS: 0.0531479
+V3 LW-NL port vs package unit-test values (k=0; size assertion bypassed because the test has n=12): 5.08616e-09
+V4 PRIAL(MV) % p=100 n=200 LW-linear: 83.1667
+V4 PRIAL(MV) % p=100 n=200 OAS: 82.9912
+V4 PRIAL(MV) % p=100 n=200 LW-NL: 96.5963
+V4 PRIAL(MV) % p=100 n=200 QIS: 95.3884
+V4 MV loss p=200 n=100 LW-linear (oracle 4.4705): 4.57734
+V4 MV loss p=200 n=100 OAS (oracle 4.4705): 4.58153
+V4 MV loss p=200 n=100 LW-NL (oracle 4.4705): 4.55957
+V4 MV loss p=200 n=100 QIS (oracle 4.4705): 4.58086
+V5 exact beta0 vs OLS(T=4e5) max diff: 0.00103407
+V5 exact betaSigma vs oracle GLS(T=4e5) max diff: 0.000874763
+V6 oracle GLS: empirical/theoretical slope variance ratio (approx, Jensen): 0.960507

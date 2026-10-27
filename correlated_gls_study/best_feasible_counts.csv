@@ -1,0 +1,14 @@
+v,best,n
+1,CV-linear,1
+1,CV-power,1
+1,Diag,3
+1,LW-NL,3
+1,LW-linear,4
+1,OAS,10
+1,QIS,2
+20,Diag,15
+20,LW-NL,1
+20,LW-linear,1
+20,OAS,3
+20,QIS,1
+20,Sample,3
